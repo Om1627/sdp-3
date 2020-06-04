@@ -23,7 +23,7 @@ class Form{
         
      
       this.PlayButton.mousePressed(()=>{
-          if (frameCount<300){
+          if (frameCount<700){
          background(0)
 
          state=2;
@@ -46,7 +46,7 @@ class Form{
          StoryTillNow.style('font-size', '50px')
        
         
-         removeElement(heading)
+         
 
       }
       
